@@ -1,0 +1,12 @@
+* C:\Users\Maxi\Desktop\CIRCUITOS MICROELECTRONICOS\TL1\OPAMP\INTEGRADOR.asc
+R1 N001 vin 1k
+V1 vcc 0 12
+V2 0 -vcc 12
+vin vin 0 PULSE(-0.19 0.22 0.5m 1u 1u 0.5m 1m 5) AC 80m
+R3 vo 0 100000Meg
+C1 vo N001 100n
+XU2 0 N001 vcc -vcc vo LM741 lm741
+.include C:\Users\Maxi\Desktop\CIRCUITOS MICROELECTRONICOS\TL1\SPICE_MODELS\LM741\lm741.lib
+.tran 5m
+.backanno
+.end
