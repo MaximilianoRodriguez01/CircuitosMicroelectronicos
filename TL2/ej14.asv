@@ -1,24 +1,24 @@
 clear global
 close all
 
-re = 319;
+re = 470;
 rb = 100e3;
 rs = 50;
 
 vbe = 0.7;
 b = 200;
-rc = 1000;
+rc = 1e3;
 
-icq = 11e-3;
+icq = 9.4e-3;
 
 gm = icq/25.9e-3;
 
 vbb = 10;
-vcc = 18;
+vcc = 15;
 
 rpi = b/icq;
 
-rib = (b)*(rb/b + re)/vbb-0.7 + b*re;
+rib = (200)*(rb/200 + re)/vbb-0.7 + b*re;
 ri = paralelo(rib, rb);
 
 roe = (1/b)*(paralelo(rs,rb)+rpi*b);
