@@ -1,0 +1,15 @@
+* C:\Users\maxir\Escritorio\CircuitosMicroelectronicos\Clases\EjercicioParaEntregar.asc
+R1 BASE 0 150k
+R2 0 BASE 27k
+R3 salida 0 3900
+R5 0 0 1k
+Q1 salida BASE 0 0 BC857A
+V2 N001 0 SINE(0 10m 10k)
+R4 BASE N001 10k
+R6 salida 0 3900
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\maxir\AppData\Local\LTspice\lib\cmp\standard.bjt
+.tran 0 50u
+.backanno
+.end
