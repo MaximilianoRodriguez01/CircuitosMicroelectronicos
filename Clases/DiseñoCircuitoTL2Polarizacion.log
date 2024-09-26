@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * C:\Users\maxir\Escritorio\CircuitosMicroelectronicos\Clases\DiseñoCircuitoTL2Polarizacion.asc
-Start Time: Wed Sep 25 19:02:05 2024
+Start Time: Thu Sep 26 16:45:45 2024
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -33,5 +33,5 @@ Cbx:      0.00e+00
 Ft:       2.17e+08
 
 
-Total elapsed time: 0.058 seconds.
+Total elapsed time: 0.124 seconds.
 
