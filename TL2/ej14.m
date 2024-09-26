@@ -2,32 +2,34 @@ clear global
 close all
 
 re = 319;
-rb = 100e3;
+rb = 82e3;
 rs = 50;
 
 vbe = 0.7;
 b = 200;
 rc = 1000;
 
-icq = 11e-3;
+icq = 0.0087;
 
 gm = icq/25.9e-3;
 
-vbb = 10;
+vbb = 5;
 vcc = 18;
 
 rpi = b/icq;
 
-rib = (b)*(rb/b + re)/vbb-0.7 + b*re;
+rib = rpi + b*re;
 ri = paralelo(rib, rb);
 
-roe = (1/b)*(paralelo(rs,rb)+rpi*b);
+roe = (1/b)*(paralelo(rs,rb)+rpi);
 
 ro = paralelo(roe, re);
 
 vce = vcc - (rc + re)*(vbb - 0.7)/(rb/b + re);
 
 AV = (gm*rb)/(1+gm*rb);
+
+AVS = ri /(ri+rs);
 
 
 
