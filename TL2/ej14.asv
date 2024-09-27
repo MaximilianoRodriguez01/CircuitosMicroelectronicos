@@ -2,13 +2,13 @@ clear variables
 close all
 
 
-re = 1000;
+re = 319;
 rb = 82e3;
 rs = 50;
-vcc = 10;
+vcc = 5;
 
 vbe = 0.7;
-b = 800;
+b = 200;
 
 icq = (vcc - vbe)/(rb/b + re);
 

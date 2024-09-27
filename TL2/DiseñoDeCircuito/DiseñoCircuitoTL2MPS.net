@@ -1,0 +1,12 @@
+* C:\Users\maxir\Escritorio\CircuitosMicroelectronicos\TL2\DiseñoDeCircuito\DiseñoCircuitoTL2MPS.asc
+R1 0 vb 82k
+R2 emisor 0 319
+V3 N001 0 SINE(0 50m 1k)
+R4 vb N001 50
+RPI emisor vb 30.323k
+G1 0 emisor vb emisor 0.2547
+ro 0 emisor 1000000Meg
+RL emisor 0 4700
+.tran 5m
+.backanno
+.end
