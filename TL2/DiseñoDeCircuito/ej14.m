@@ -1,12 +1,11 @@
 clear all
 close all
 
-
 re = 470;
 rb = 82e3;
 rs = 50;
-vcc = 10;
 
+vcc = 10;
 vbb = 2;
 
 vbe = 0.7;
