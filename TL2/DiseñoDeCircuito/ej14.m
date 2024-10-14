@@ -1,18 +1,19 @@
 clear all
 close all
 
-re = 470;
+re = 1000;
 rb = 82e3;
 rs = 50;
 
 vcc = 10;
-vbb = 2;
+vbb = 3;
 
 vbe = 0.7;
 b = 200;
 
 
 icq = (vbb - vbe)/(rb/b + re);
+VCE = vcc - (re)*(vbb - 0.7)/(rb/b + re);
 
 gm = icq/25.9e-3;
 rpi = b/icq;
@@ -23,8 +24,6 @@ ri = paralelo(rib, rb);
 roe = (1/b)*(paralelo(rs,rb)+rpi);
 
 ro = paralelo(roe, re);
-
-VCE = vcc - (re)*(vbb - 0.7)/(rb/b + re);
 
 AV = (gm*rb)/(1+gm*rb);
 
