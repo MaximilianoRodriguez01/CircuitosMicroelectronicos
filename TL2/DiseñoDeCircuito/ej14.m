@@ -1,4 +1,4 @@
-`clear all
+clear all
 close all
 
 re = 1000;
@@ -32,4 +32,4 @@ AVS = ri /(ri+rs);
 % Defino funcion que hace paralelos de resistencias
 function [Rpar] = paralelo(R1, R2)
     Rpar = (R1 * R2) / (R1 + R2);
-  end`
+  end
