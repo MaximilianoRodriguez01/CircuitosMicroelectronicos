@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * C:\Users\maxir\Escritorio\CircuitosMicroelectronicos\TL2\DiseñoDeCircuito\DiseñoCircuitoTL2Polarizacion.asc
-Start Time: Fri Sep 27 18:16:05 2024
+Start Time: Mon Oct 14 20:11:49 2024
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -15,23 +15,23 @@ Semiconductor Device Operating Points:
                         --- Bipolar Transistors ---
 Name:       q1
 Model:    2n2222
-Ib:       7.25e-06
-Ic:       1.57e-03
-Vbe:      6.65e-01
-Vbc:     -8.59e+00
-Vce:      9.26e+00
-BetaDC:   2.16e+02
-Gm:       6.03e-02
-Rpi:      3.57e+03
+Ib:       7.85e-06
+Ic:       1.68e-03
+Vbe:      6.67e-01
+Vbc:     -7.64e+00
+Vce:      8.31e+00
+BetaDC:   2.14e+02
+Gm:       6.47e-02
+Rpi:      3.29e+03
 Rx:       1.00e+01
-Ro:       6.93e+04
-Cbe:      6.36e-11
-Cbc:      3.48e-12
+Ro:       6.40e+04
+Cbe:      6.54e-11
+Cbc:      3.61e-12
 Cjs:      0.00e+00
-BetaAC:   2.15e+02
+BetaAC:   2.13e+02
 Cbx:      0.00e+00
-Ft:       1.43e+08
+Ft:       1.49e+08
 
 
-Total elapsed time: 0.101 seconds.
+Total elapsed time: 0.085 seconds.
 

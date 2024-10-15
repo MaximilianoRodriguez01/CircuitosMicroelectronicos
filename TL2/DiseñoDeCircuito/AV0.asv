@@ -1,0 +1,22 @@
+clear all
+close all
+data = readmatrix('Vs_Vin', 'FileType', 'text', 'Delimiter', '\t');
+
+tiempo = data(:, 1);
+vin = data(:, 2);
+vo = data(:, 3);
+
+maximo_vo = max(vo);
+minimo_vo = min(vo);
+
+maximo_vin = max(vin);
+minimo_vin = min(vin);
+
+V_o = maximo_vo - minimo_vo;
+V_in = maximo_vin - minimo_vin;
+
+Rs = 50;
+
+Avo = 
+
+R_o = (Avo*V_in - V_o)/(V_o/4700);
