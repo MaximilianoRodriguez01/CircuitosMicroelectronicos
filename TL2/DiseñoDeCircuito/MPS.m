@@ -39,3 +39,5 @@ xlabel('Tiempo [s]');
 ylabel('Tensión [V]');
 grid on;
 title('Ganancia del Amplificador en Vacío - LTSpice');
+
+
