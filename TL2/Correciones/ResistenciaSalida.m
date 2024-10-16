@@ -22,18 +22,10 @@ MINVIN = min(data3(:, 2));
 
 VIN = MAXVIN - MINVIN;
 
-MAXVS = max(data4(:, 2));
-MINVS = min(data4(:, 2));
-
-VS = MAXVS - MINVS;
-
-
 
 Avo = (VO_VACIO) / VIN;
 
 R_o = (Avo*VIN - VO_CON_CARGA)/(VO_CON_CARGA/4700);
-
-R_i = 50*(VIN/(VS-VIN));
 
 
 

@@ -1,15 +1,17 @@
-* C:\Users\Maxi\Desktop\CIRCUITOS MICROELECTRONICOS\TL2\Correciones\DiseñoCircuitoTL2MPS.asc
+* C:\Users\maxir\Escritorio\CircuitosMicroelectronicos\TL2\Correciones\DiseñoCircuitoTL2MPS.asc
 R1 N001 vb 82k
-R2 N004 0 1000
+R2 emisor 0 1000
+V3 N002 0 SINE(0 1 1k)
 R4 N003 N002 100k
 C1 vb N003 2µ
+CL N004 emisor 2µ
 V1 N001 0 3
 V2 colector 0 10
-Q1 colector vb N004 0 2N2222
-V3 N002 0 SINE(0 1 10k)
+RL N004 0 4700
+Q1 colector vb emisor 0 NPN
 .model NPN NPN
 .model PNP PNP
-.lib C:\Users\Maxi\Documents\LTspiceXVII\lib\cmp\standard.bjt
-.tran 0.5m
+.lib C:\Users\maxir\AppData\Local\LTspice\lib\cmp\standard.bjt
+.tran 5m
 .backanno
 .end

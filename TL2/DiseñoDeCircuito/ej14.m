@@ -28,7 +28,7 @@ AV = (gm*rb)/(1+gm*rb);
 
 AVS = ri /(ri+rs);
 
-paraleloR = paralelo(re,4700);
+paraleloR = paralelo(re,47);
 
 % Rango de VCE
 VCE_barrido = linspace(0, vcc, 1000); % Genera 1000 puntos desde 0 hasta VCC

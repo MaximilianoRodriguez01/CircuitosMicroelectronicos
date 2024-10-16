@@ -9,7 +9,7 @@ vcc = 10;
 vbb = 3;
 
 vbe = 0.7;
-b = 200;
+b = 230;
 
 icq = (vbb - vbe)/(rb/b + re);
 VCE = vcc - (re)*(vbb - 0.7)/(rb/b + re);
