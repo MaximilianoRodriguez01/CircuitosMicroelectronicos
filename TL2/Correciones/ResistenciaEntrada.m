@@ -15,7 +15,11 @@ MINVS = min(data(:, 3));
 
 VS = MAXVS - MINVS;
 
-R_i = (VIN/VS)*100e3*(1/(1-(VIN/VS)));
+R_s = 100e3;
+
+R_i = (VIN/VS)*R_s*(1/(1-(VIN/VS)));
+
+
 
 
 

@@ -9,7 +9,7 @@ vcc = 10;
 vbb = 3;
 
 vbe = 0.7;
-b = 200;
+b = 246;
 
 icq = (vbb - vbe)/(rb/b + re);
 VCE = vcc - (re)*(vbb - 0.7)/(rb/b + re);
@@ -28,7 +28,7 @@ AV = (gm*rb)/(1+gm*rb);
 
 AVS = ri /(ri+rs);
 
-paraleloR = paralelo(re,47);
+paraleloR = paralelo(re,4700);
 
 % Rango de VCE
 VCE_barrido = linspace(0, vcc, 1000); % Genera 1000 puntos desde 0 hasta VCC

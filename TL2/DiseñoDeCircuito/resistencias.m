@@ -14,7 +14,7 @@ maximo_vin = max(vin);
 minimo_vin = min(vin);
 
 V_s = maximo_vs - minimo_vs;
-V_in = 1.998;
+V_in = maximo_vin - minimo_vin;
 
 Rs = 50;
 

@@ -5,8 +5,8 @@ re = 1000;
 rb = 82e3;
 rs = 50;
 
-vcc = 10.13;
-vbb = 2.994;
+vcc = 2.8;
+vbb = 9.7;
 
 vbe = 0.7;
 b = 246;
@@ -29,6 +29,8 @@ AV = (gm*rb)/(1+gm*rb);
 AVS = ri /(ri+rs);
 
 Z = vcc - VCE;
+
+z2 = vcc - z;
 
 
 

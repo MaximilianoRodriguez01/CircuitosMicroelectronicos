@@ -1,17 +1,18 @@
-* C:\Users\maxir\Escritorio\CircuitosMicroelectronicos\TL2\Correciones\DiseñoCircuitoTL2MPS.asc
+* C:\Users\Maxi\Desktop\CIRCUITOS MICROELECTRONICOS\TL2\Correciones\DiseñoCircuitoTL2MPS.asc
 R1 N001 vb 82k
-R2 emisor 0 1000
-V3 N002 0 SINE(0 1 1k)
+R2 N004 0 1000
 R4 N003 N002 100k
 C1 vb N003 2µ
-CL N004 emisor 2µ
 V1 N001 0 3
 V2 colector 0 10
-RL N004 0 4700
-Q1 colector vb emisor 0 NPN
+Q1 colector vb N004 0 BC548B
+V3 N002 0 SINE(0 1 10k)
+C2 N005 N004 2µ
+R3 N005 0 4700
 .model NPN NPN
 .model PNP PNP
-.lib C:\Users\maxir\AppData\Local\LTspice\lib\cmp\standard.bjt
-.tran 5m
+.lib C:\Users\Maxi\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.tran 0.5m
+.model BC548B NPN(Is=7.049f Xti=3 Eg=1.11 Vaf=62 Bf=250 Ise=68f Ne=1.576 Ikf=81.57m Nk=.4767 Xtb=1.5 Br=1 Isc=12.4f Nc=1.835 Ikr=3.924 Rc=.9747 Cjc=5.25p Mjc=.3147 Vjc=.5697 Fc=.5 Cje=11.5p Mje=.6715 Vje=.5 Tr=10n Tf=410.2p Itf=1.491 Xtf=40.06 Vtf=10 Vceo=30 Icrating=100m mfg=Philips)
 .backanno
 .end
