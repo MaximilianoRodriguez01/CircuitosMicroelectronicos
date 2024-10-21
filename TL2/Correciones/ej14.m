@@ -24,9 +24,9 @@ roe = (1/b)*(paralelo(rs,rb)+rpi);
 
 ro = paralelo(roe, re);
 
-AV = (gm*rb)/(1+gm*rb);
+AV = (gm*re)/(1+gm*re);
 
-AVS = ri /(ri+rs);
+AVS = AV * (ri /(ri+rs));
 
 Z = vcc - VCE;
 
