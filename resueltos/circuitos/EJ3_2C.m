@@ -1,0 +1,20 @@
+
+%DATOS DEL EJ
+
+k=0.75/1000;
+
+VGG=24;
+RD= 4000;
+RS= 1000;
+RG1=9*10^6;
+RG2=3*10^6;
+RL=4000;
+RS=200000;
+
+%thevenin
+RGG= RG1*RG2/(RG1+RG2);
+VTH=VGG*RG2/(RG1+RG2);
+
+
+
+
