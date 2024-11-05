@@ -1,0 +1,54 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\Maxi\Desktop\CIRCUITOS MICROELECTRONICOS\Clases\ParcialesLTspice\Draft1.asc
+Start Time: Tue Nov  5 01:14:11 2024
+c4: both pins shorted together -- ignoring.
+solver = Normal
+Maximum thread count: 28
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- MOSFET Transistors ---
+Name:         m§q2        m§q1
+Model:         t2          t1
+Id:          6.95e-04    6.95e-04
+Vgs:        -9.17e-01   -6.95e-01
+Vds:         5.05e+00    8.82e-01
+Vbs:        -9.17e-01    0.00e+00
+Vth:        -1.00e+00   -1.00e+00
+Vdsat:       8.34e-02    3.05e-01
+Gm:          1.67e-02    4.57e-03
+Gds:         0.00e+00    0.00e+00
+Gmb:         0.00e+00    0.00e+00
+Cbd:         0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00
+Cgsov:       0.00e+00    0.00e+00
+Cgdov:       0.00e+00    0.00e+00
+Cgbov:       0.00e+00    0.00e+00
+Cgs:         0.00e+00    0.00e+00
+Cgd:         0.00e+00    0.00e+00
+Cgb:         0.00e+00    0.00e+00
+
+
+Total elapsed time: 0.023 seconds.
+
